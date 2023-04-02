@@ -1,0 +1,39 @@
+#profile {
+    display: flex; flex-direction: column; align-items: center;
+}
+
+#link-profile {
+    text-decoration: none; color: white; position: absolute; top: 40px; left: 40px
+}
+
+#background {
+    background: #171717; border-radius: 5px; position: relative; bottom: 30px; padding: 5px; box-shadow: 6px 4px 4px #505050;
+}
+
+h1#username {
+    margin: 3px; text-align: center; font-size: 16px;
+}
+
+p#id {
+    margin: 0; font-size: 10px;
+}
+
+img#avatar {
+    border-radius: 50%; width: 100px; height: 100px; margin: 10px;
+}
+
+section#top-tracks {
+    margin-top: 200px;
+}
+
+section.section-content {
+    display: flex; flex-direction: column; 
+}
+
+div#tracks, div#artists, div#playlists {
+    display: flex; flex-direction: row; width: 100vw; overflow-x: scroll; overflow-y: hidden;
+}
+
+h2.subtitle {
+    margin-left: 30px; color: #dddddd;
+}

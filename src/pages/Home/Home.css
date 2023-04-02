@@ -1,0 +1,17 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+p.subtitle {
+    margin: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* Path: spotifly\src\pages\Home\Home.js */
